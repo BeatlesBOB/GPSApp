@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:id="@+id/Txtpresentation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La distance en mètre "
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:id="@+id/txtgps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selon le gps "
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:id="@+id/txtpodometre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selon le podometre"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/Podometre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+</LinearLayout>
